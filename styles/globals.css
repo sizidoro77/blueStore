@@ -70,5 +70,10 @@ nav ul li:hover{
 }
 
 .menu-button{
+    display: none;
+}
+
+.header-bottom-side{
     display: flex;
+    align-items: center;
 }
