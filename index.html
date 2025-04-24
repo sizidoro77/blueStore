@@ -7,8 +7,8 @@
         <link rel="stylesheet" href="/styles/globals.css">
     </head>
     <body>
-        <div class="navbar">
-            <div class="header-inner-content show-menu">
+        <div class="navbar show-menu">
+            <div class="header-inner-content">
                 <h1 class="logo">BLUE<span>STORE</span></h1>
                 <nav>
                     <ul>
@@ -41,6 +41,33 @@
                 </div>
             </div>
         </div>
-        </header>
+    </header>
+
+    <!-- Main Content-->
+<main>
+    <div class="gray-background">
+        <div class="page-inner-content">
+            <div class="cols cols-3">
+                <div class="product-item">
+                    <img src="images/products/product-1.png" alt="">
+                </div>
+                <div class="product-item">
+                    <img src="images/products/product-2.png" alt="">
+                </div>
+                <div class="product-item">
+                    <img src="images/products/product-3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+    <script> 
+        const navbar = document.querySelector('.navbar');
+        const menuButton = document.querySelector('.menu-button');
+
+        menuButton.addEventListener('click', () => {
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
     </body>
     </html>
