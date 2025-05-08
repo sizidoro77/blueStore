@@ -395,5 +395,35 @@ main{
     cursor: pointer;
 }
 
+.copyright{
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/* Media queries */
+
+@media (max-width: 800px){
+    .footer-content {
+        display: inline;
+        font-size: 0.8rem;
+    }
+
+    .footer-content>div{
+        padding: 1rem;
+    }
+
+    .download-options>div{
+        display: inline;        
+    }
+
+    .download-options>div img {
+        width: 120px;
+    }
+
+    .copyright{
+        font-size: 0.8rem;
+    }
+}
 /* Footer */
 
